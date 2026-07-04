@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#152238">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="HASE Gruppe">
+  <title>HASE Gruppe – Reisebegleiter</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app">
+    <section class="hero">
+      <div class="badge">Private Reise-App</div>
+      <h1>HASE Gruppe</h1>
+      <p>Reisen • Erleben • Entdecken</p>
+      <button onclick="document.getElementById('dresden').scrollIntoView({behavior:'smooth'})">Dresden 2026 öffnen</button>
+    </section>
+
+    <section class="card" id="dresden">
+      <h2>🏛 Dresden 2026</h2>
+      <p class="date">06.07. – 10.07.2026</p>
+      <div class="grid">
+        <a class="tile" href="#plan">📅 Tagesplan</a>
+        <a class="tile" href="#karte">🗺 Karte</a>
+        <a class="tile" href="#essen">🍽 Essen & Bars</a>
+        <a class="tile" href="#semper">🎭 Semperoper</a>
+        <a class="tile" href="#hitze">☀️ Hitzeplan</a>
+        <a class="tile" href="#regen">🌧 Regenplan</a>
+      </div>
+    </section>
+
+    <section class="card" id="plan">
+      <h2>📅 Tagesplan – Grundgerüst</h2>
+      <article><b>Mo, 06.07.</b><br>Ab 19 Uhr Neustadt: Abendessen, Spaziergang, Bar.</article>
+      <article><b>Di, 07.07.</b><br>Altstadt, Zwinger, Frauenkirche, Brühlsche Terrasse.</article>
+      <article><b>Mi, 08.07.</b><br>Ruhiger Tag, ab 19 Uhr Semperoper.</article>
+      <article><b>Do, 09.07.</b><br>Kunsthofpassage, Panometer oder Elbe.</article>
+      <article><b>Fr, 10.07.</b><br>Abreise, vorher Kaffee oder kurzer Spaziergang.</article>
+    </section>
+
+    <section class="card" id="karte">
+      <h2>🗺 Karte</h2>
+      <p>In Etappe 2 kommen hier die Karten und direkten Navigationslinks hinein.</p>
+      <a class="button" href="https://maps.apple.com/?q=Dresden" target="_blank">Dresden in Apple Karten öffnen</a>
+    </section>
+
+    <section class="card" id="essen">
+      <h2>🍽 Essen & Bars</h2>
+      <p>Hier folgen ausgewählte Restaurants, Biergärten, Cafés und Bars.</p>
+    </section>
+
+    <section class="card" id="semper">
+      <h2>🎭 Semperoper</h2>
+      <p>Mittwoch, 08.07.2026, ab 19 Uhr. Dresscode: gepflegt / smart casual.</p>
+    </section>
+
+    <section class="card" id="hitze">
+      <h2>☀️ Hitzeplan</h2>
+      <p>Vormittags Sehenswürdigkeiten, mittags Museum/Kirche/Schifffahrt, abends Elbe oder Neustadt.</p>
+    </section>
+
+    <section class="card" id="regen">
+      <h2>🌧 Regenplan</h2>
+      <p>Grünes Gewölbe, Gemäldegalerie, Panometer, Cafés und Semperoper-Umfeld.</p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
