@@ -1,9 +1,11 @@
-HASE Gruppe – Etappe 1
+HASE Gruppe – Amsterdam + Dresden
 
-1. ZIP entpacken.
-2. GitHub Repository öffnen: https://github.com/hp-hafner-creator/dresden2026
-3. Add file > Upload files anklicken.
-4. Alle entpackten Dateien und Ordner hineinziehen: index.html, styles.css, app.js, sw.js, manifest.webmanifest, assets, icons.
-5. Commit changes anklicken.
-6. Nach ca. 1–3 Minuten öffnen: https://hp-hafner-creator.github.io/dresden2026/
-7. Am iPhone in Safari öffnen > Teilen > Zum Home-Bildschirm.
+1. ZIP-Datei am PC entpacken.
+2. GitHub öffnen: https://github.com/hp-hafner-creator/dresden2026
+3. Add file > Upload files.
+4. ALLE entpackten Dateien und Ordner hochladen (index.html, styles.css, app.js, sw.js, manifest.webmanifest, icons, assets).
+5. Vorhandene Dateien dürfen ersetzt werden.
+6. Unten Commit changes anklicken.
+7. 1–3 Minuten warten.
+8. Auf dem iPhone Safari öffnen: https://hp-hafner-creator.github.io/dresden2026/
+9. Falls noch die alte Version erscheint: Seite neu laden. Die neue Version hat Amsterdam ganz oben.

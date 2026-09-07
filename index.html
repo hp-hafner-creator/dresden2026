@@ -1,74 +1,16 @@
-<!doctype html>
-<html lang="de">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#152238">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="HASE Gruppe">
-  <title>HASE Gruppe – Reisebegleiter</title>
-  <link rel="manifest" href="manifest.webmanifest">
-  <link rel="apple-touch-icon" href="icons/icon-192.png">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <main class="app">
-    <section class="hero">
-      <div class="badge">Private Reise-App</div>
-      <h1>HASE Gruppe</h1>
-      <p>Reisen • Erleben • Entdecken</p>
-      <button onclick="document.getElementById('dresden').scrollIntoView({behavior:'smooth'})">Dresden 2026 öffnen</button>
-    </section>
-
-    <section class="card" id="dresden">
-      <h2>🏛 Dresden 2026</h2>
-      <p class="date">06.07. – 10.07.2026</p>
-      <div class="grid">
-        <a class="tile" href="#plan">📅 Tagesplan</a>
-        <a class="tile" href="#karte">🗺 Karte</a>
-        <a class="tile" href="#essen">🍽 Essen & Bars</a>
-        <a class="tile" href="#semper">🎭 Semperoper</a>
-        <a class="tile" href="#hitze">☀️ Hitzeplan</a>
-        <a class="tile" href="#regen">🌧 Regenplan</a>
-      </div>
-    </section>
-
-    <section class="card" id="plan">
-      <h2>📅 Tagesplan – Grundgerüst</h2>
-      <article><b>Mo, 06.07.</b><br>Ab 19 Uhr Neustadt: Abendessen, Spaziergang, Bar.</article>
-      <article><b>Di, 07.07.</b><br>Altstadt, Zwinger, Frauenkirche, Brühlsche Terrasse.</article>
-      <article><b>Mi, 08.07.</b><br>Ruhiger Tag, ab 19 Uhr Semperoper.</article>
-      <article><b>Do, 09.07.</b><br>Kunsthofpassage, Panometer oder Elbe.</article>
-      <article><b>Fr, 10.07.</b><br>Abreise, vorher Kaffee oder kurzer Spaziergang.</article>
-    </section>
-
-    <section class="card" id="karte">
-      <h2>🗺 Karte</h2>
-      <p>In Etappe 2 kommen hier die Karten und direkten Navigationslinks hinein.</p>
-      <a class="button" href="https://maps.apple.com/?q=Dresden" target="_blank">Dresden in Apple Karten öffnen</a>
-    </section>
-
-    <section class="card" id="essen">
-      <h2>🍽 Essen & Bars</h2>
-      <p>Hier folgen ausgewählte Restaurants, Biergärten, Cafés und Bars.</p>
-    </section>
-
-    <section class="card" id="semper">
-      <h2>🎭 Semperoper</h2>
-      <p>Mittwoch, 08.07.2026, ab 19 Uhr. Dresscode: gepflegt / smart casual.</p>
-    </section>
-
-    <section class="card" id="hitze">
-      <h2>☀️ Hitzeplan</h2>
-      <p>Vormittags Sehenswürdigkeiten, mittags Museum/Kirche/Schifffahrt, abends Elbe oder Neustadt.</p>
-    </section>
-
-    <section class="card" id="regen">
-      <h2>🌧 Regenplan</h2>
-      <p>Grünes Gewölbe, Gemäldegalerie, Panometer, Cafés und Semperoper-Umfeld.</p>
-    </section>
-  </main>
-  <script src="app.js"></script>
-</body>
-</html>
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#152238"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="HASE Gruppe"><title>HASE Gruppe – Reisebegleiter</title><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icons/icon-192.png"><link rel="stylesheet" href="styles.css"></head><body><main class="app">
+<section class="hero"><div class="badge">Private Reise-App</div><h1>HASE Gruppe</h1><p>Reisen • Erleben • Entdecken</p><div class="hero-buttons"><a class="hero-btn" href="#amsterdam">🇳🇱 Amsterdam 2026</a><a class="hero-btn secondary" href="#dresden">🏛 Dresden 2026</a></div></section>
+<section class="card trip" id="amsterdam"><h2>🇳🇱 Amsterdam 2026</h2><p class="date">03.10. – 07.10.2026 · 3 Männer</p><p>Grachten, Fahrräder, Kultur, gutes Essen und Livemusik.</p><div class="grid"><a class="tile" href="#ams-plan">📅 Tagesplan</a><a class="tile" href="#ams-frueh">☕ Frühstück</a><a class="tile" href="#ams-kultur">🏛 Kultur</a><a class="tile" href="#ams-essen">🍽 Restaurants</a><a class="tile" href="#ams-bars">🎸 Bars & Musik</a><a class="tile" href="#ams-mobil">🚲 Taxi & Rad</a></div></section>
+<section class="card" id="ams-plan"><h2>📅 Amsterdam – Tagesplan</h2>
+<article><b>Sa, 03.10. · Anreise & erstes Bier</b><br>16:00 Flug Zürich → 17:40 Schiphol. Nach Gepäck mit offiziellem Taxi zum Hotel an der Prinsengracht. Ca. 19:00 Check-in. Danach zu Fuß an die Grachten, erstes kühles Bier und Abendessen. Ab ca. 22:30 Livemusik im Waterhole; Bourbon Street bleibt als bekannte Alternative.</article>
+<article><b>So, 04.10. · Jordaan, Fahrrad & Anne Frank</b><br>09:00 Frühstück bei Teds. Ca. 10:15 Fahrräder übernehmen. Jordaan, Westerkerk, Noordermarkt und Brouwersgracht. Für ca. 14:00 Anne-Frank-Haus einplanen (Ticket mit Zeitfenster nötig). Danach Dam, Begijnhof und Grachten. 19:30 internationales Abendessen, ab 21:30 Jazz Café Alto.</article>
+<article><b>Mo, 05.10. · Rijksmuseum, De Pijp & Vondelpark</b><br>09:00 Frühstück bei Eggs Benaddicted. 10:30–12:30 Rijksmuseum. Danach Albert-Cuyp-Markt und De Pijp, anschließend Fahrradrunde durch den Vondelpark. Abends niederländisch essen, danach The Cave Rock Club.</article>
+<article><b>Di, 06.10. · NDSM, Grachtenfahrt & Abschlussabend</b><br>09:00 Frühstück. Mit dem Rad zum Centraal, kostenlose Fähre nach Amsterdam-Noord/NDSM. Street-Art, Werftgelände und Mittagspause. Nachmittags Räder zurückgeben und ca. 16:00 Grachtenfahrt. 19:30 gutes Abschlussessen, danach Livemusik – Maloe Melo / Waterhole je nach aktuellem Programm.</article>
+<article><b>Mi, 07.10. · Frühstück & Heimflug</b><br>09:00 Frühstück bei Piqniq. Letzter Spaziergang im Jordaan. 11:30 Gepäck holen, ca. 12:00–12:15 Taxi nach Schiphol. 15:10 Rückflug.</article></section>
+<section class="card" id="ams-frueh"><h2>☕ Frühstück außer Haus</h2><article><b>Teds Amsterdam Jordaan</b><br>Prinsengracht 178 · All-Day-Brunch · guter Start für Sonntag.<br><a href="https://maps.apple.com/?q=Teds+Amsterdam+Jordaan" target="_blank">📍 Route öffnen</a></article><article><b>Eggs Benaddicted</b><br>Prinsengracht 474 · Eiergerichte / Eggs Benedict · täglich ab 09:00.<br><a href="https://maps.apple.com/?q=Eggs+Benaddicted+Prinsengracht+Amsterdam" target="_blank">📍 Route öffnen</a></article><article><b>Koffiehuis De Hoek</b><br>Prinsengracht 341 · unkompliziert, klassisch, zentral.<br><a href="https://maps.apple.com/?q=Koffiehuis+De+Hoek+Amsterdam" target="_blank">📍 Route öffnen</a></article><article><b>Piqniq</b><br>Lindengracht 59 · schön für den letzten Morgen.<br><a href="https://maps.apple.com/?q=Piqniq+Amsterdam" target="_blank">📍 Route öffnen</a></article></section>
+<section class="card" id="ams-kultur"><h2>🏛 Kultur & Sehenswürdigkeiten</h2><article><b>Anne-Frank-Haus</b><br>Prinsengracht 263–267. Nur mit Online-Ticket und Zeitfenster. Tickets werden dienstags um 10 Uhr für sechs Wochen später freigeschaltet.<br><a href="https://www.annefrank.org/de/museum/tickets/" target="_blank">🎟 Offizielle Tickets</a> · <a href="https://maps.apple.com/?q=Anne+Frank+House+Amsterdam" target="_blank">📍 Route</a></article><article><b>Rijksmuseum</b><br>Für euch ca. 2 Stunden Highlights: Rembrandt, Vermeer, Ehrengalerie. Täglich 09:00–17:00; Startzeit reservieren.<br><a href="https://www.rijksmuseum.nl/en/visit" target="_blank">🎟 Offizielle Seite</a> · <a href="https://maps.apple.com/?q=Rijksmuseum+Amsterdam" target="_blank">📍 Route</a></article><article><b>Weitere Highlights</b><br>Jordaan · Dam · Begijnhof · Westerkerk · Grachtenring · Vondelpark · De Pijp / Albert-Cuyp-Markt · NDSM-Werft · Grachtenfahrt. Van-Gogh-Museum als zusätzliche Schlechtwetter-/Kulturoption.</article></section>
+<section class="card" id="ams-essen"><h2>🍽 Restaurants</h2><article><b>Sherpa Restaurant</b><br>Indisch / nepalesisch, Nähe Leidseplein – ideal vor Waterhole oder Jazz Café Alto.<br><a href="https://maps.apple.com/?q=Sherpa+Restaurant+Amsterdam" target="_blank">📍 Route</a></article><article><b>The Pantry</b><br>Niederländische Küche, Leidsekruisstraat – für einen typisch niederländischen Abend.<br><a href="https://maps.apple.com/?q=The+Pantry+Amsterdam" target="_blank">📍 Route</a></article><article><b>Amigo Grill</b><br>Argentinisch, Prinsengracht 188 – unkomplizierte internationale Alternative.<br><a href="https://maps.apple.com/?q=Amigo+Grill+Prinsengracht+Amsterdam" target="_blank">📍 Route</a></article><p class="note">Für den Abschlussabend am 06.10. prüfen wir kurz vor der Reise nochmals aktuelle Empfehlungen und Reservierungsmöglichkeiten.</p></section>
+<section class="card" id="ams-bars"><h2>🎸 Bars & Livemusik</h2><article><b>The Waterhole</b><br>Livemusik mit wechselnden Genres, sehr passend als Bourbon-Street-Alternative.<br><a href="https://waterhole.nl/" target="_blank">🎵 Programm</a> · <a href="https://maps.apple.com/?q=The+Waterhole+Amsterdam" target="_blank">📍 Route</a></article><article><b>The Cave Rock Club</b><br>Prinsengracht 472 · kleiner, dunkler und rockiger.<br><a href="https://maps.apple.com/?q=The+Cave+Rock+Club+Amsterdam" target="_blank">📍 Route</a></article><article><b>Jazz Café Alto</b><br>Korte Leidsedwarsstraat 115 · Jazz-Club, gute Abwechslung zu Rock.<br><a href="https://maps.apple.com/?q=Jazz+Cafe+Alto+Amsterdam" target="_blank">📍 Route</a></article><article><b>Soundgarden</b><br>Marnixstraat 164–166 · unkomplizierte Rockbar als Reserve.<br><a href="https://maps.apple.com/?q=Soundgarden+Amsterdam" target="_blank">📍 Route</a></article><article><b>Bourbon Street</b><br>Euer bewährter Klassiker bleibt natürlich in der App.<br><a href="https://maps.apple.com/?q=Bourbon+Street+Amsterdam" target="_blank">📍 Route</a></article></section>
+<section class="card" id="ams-mobil"><h2>🚲 Taxi & Fahrrad</h2><article><b>Hinflug</b><br>Sa 03.10. · Zürich 16:00 → Amsterdam 17:40. Nach Gepäck zum offiziellen Taxistand bei Schiphol Plaza; keine Fahrer im Terminal annehmen. Ziel: Hotel an der Prinsengracht.</article><article><b>Fahrräder</b><br>Ab Sonntagmorgen für drei Personen mieten. Amsterdam-Radtouren sind im Tagesplan integriert. Fahrrad immer gut anschließen und auf Tramgleise achten.</article><article><b>Rückflug</b><br>Mi 07.10. · 15:10 ab Amsterdam. Empfehlung: Taxi ca. 12:00–12:15 am Hotel.</article><a class="button" href="https://maps.apple.com/?q=Amsterdam+Schiphol+Airport" target="_blank">✈️ Schiphol in Karten</a></section>
+<section class="card trip" id="dresden"><h2>🏛 Dresden 2026</h2><p class="date">06.07. – 10.07.2026</p><div class="grid"><a class="tile" href="#dd-plan">📅 Tagesplan</a><a class="tile" href="#dd-semper">🎭 Semperoper</a></div></section><section class="card" id="dd-plan"><h2>📅 Dresden – Kurzplan</h2><article><b>Mo 06.07.</b> Neustadt: Abendessen, Spaziergang, Bar.</article><article><b>Di 07.07.</b> Altstadt, Zwinger, Frauenkirche, Brühlsche Terrasse.</article><article><b>Mi 08.07.</b> Ruhiger Tag, 19:00 Semperoper.</article><article><b>Do 09.07.</b> Kunsthofpassage, Panometer oder Elbe.</article><article><b>Fr 10.07.</b> Abreise.</article></section><section class="card" id="dd-semper"><h2>🎭 Semperoper</h2><p>Mittwoch, 08.07.2026, 19:00 · Roméo et Juliette · gepflegt / smart casual.</p></section>
+<footer>HASE Gruppe · Reisen • Erleben • Entdecken</footer></main><script src="app.js"></script></body></html>
